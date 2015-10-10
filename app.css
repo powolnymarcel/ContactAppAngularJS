@@ -1,0 +1,57 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+.champstd{
+  padding-top: 25px !important;
+}
+.formAjout{
+  padding-top: 10px !important;
+  padding-bottom: 45px !important;
+  margin: 15px 0px 25px 0;
+}
+.formAjout>.col-md-10>.row {
+  margin: 25px 0px 10px 0px;
+}
+.default{
+  opacity: 1;
+}
+
+.fade{
+  -webkit-transition: opacity 2s; /* For Safari 3.1 to 6.0 */
+  -moz-transition: opacity 2s; /* For Safari 3.1 to 6.0 */
+  transition: opacity 2s;
+  opacity: 0;
+}
+.boutonFermer{
+   margin: -5px 0 0 0;
+}
+a{
+  cursor: pointer;
+}
